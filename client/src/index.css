@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+@theme{
+    --color-soft-primary : #84D187;
+    --color-primary : #00B207;
+    --color-hard-primary : #2C742F;
+    --color-warning : #FF8A00;
+    --color-danger : #EA4B48;
+    --color-secondary: #999999;
+
+
+}
