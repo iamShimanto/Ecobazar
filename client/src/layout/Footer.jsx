@@ -12,8 +12,8 @@ const Footer = () => {
     <footer className="bg-gray-900 text-gray-300">
       {/* Newsletter Section */}
       <div className="bg-gray-100 py-10 px-4">
-        <div className="container flex flex-col md:flex-row items-center justify-between gap-6">
-          <div>
+        <div className="container flex flex-col lg:flex-row items-center justify-between gap-6">
+          <div className="text-center">
             <h2 className="text-2xl font-bold text-gray-800">
               Subscribe our Newsletter
             </h2>
@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex items-center gap-6">
+          <div className="flex flex-col sm:flex-row items-center gap-6">
             <div className="flex w-full md:w-auto">
               <input
                 type="email"

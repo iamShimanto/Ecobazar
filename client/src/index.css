@@ -2,18 +2,17 @@
 
 @utility container {
   margin-inline: auto;
+  padding-inline: 2rem;
 }
 
 body {
   font-family: "Poppins", sans-serif;
 }
-@theme{
-    --color-soft-primary : #84D187;
-    --color-primary : #00B207;
-    --color-hard-primary : #2C742F;
-    --color-warning : #FF8A00;
-    --color-danger : #EA4B48;
-    --color-secondary: #999999;
-
-
+@theme {
+  --color-soft-primary: #84d187;
+  --color-primary: #00b207;
+  --color-hard-primary: #2c742f;
+  --color-warning: #ff8a00;
+  --color-danger: #ea4b48;
+  --color-secondary: #999999;
 }
