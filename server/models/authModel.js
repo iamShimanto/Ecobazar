@@ -24,6 +24,14 @@ const userSchema = new mongoose.Schema({
     enum: ["user", "admin"],
     default: "user",
   },
+  isVerified: {
+    type: Boolean,
+    default: false,
+  },
+  verifyCode: {
+    type: Number,
+    default: null,
+  },
   cretedAt: {
     type: Date,
     default: Date.now(),
